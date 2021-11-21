@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url('../Poppins/Poppins-Bold.ttf');
+}
+
+* {
+    font-family: Poppins, serif !important;
+}
+
+html, body {
+    background-color: #EDFBFF !important;
+}
+
+.base-container {
+    max-width: 500px !important;
+}
+
+.logo-image {
+    width: 4.6rem;
+}
+
+.head-text {
+    font-family: Poppins-bold, serif;
+    color: #0A627A;
+    font-weight: 700;
+    font-size:1.5rem;
+}
+
+.tag-line {
+    color: rgba(10, 98, 122, 0.3);
+    font-size: 0.8rem;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+section .form-head {
+    color: #0A627A;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+section form .form-control {
+    background-color: #F1F1F1;
+    border: 0;
+}
+
+.btn-custom-primary {
+    background-color: #0A627A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-custom-primary:hover {
+    background-color: #11728d;
+}
